@@ -1,17 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 import { UrlShortener } from './components/url-shortener'
 
-function App() {
+export default function App() {
   return (
-    <main className="min-h-screen bg-background">
-      <div className="container py-8">
+    <div className="w-full min-h-screen bg-[#2D2D2D] flex items-center justify-center">
+      <main className="w-full max-w-lg px-4 text-center">
         <UrlShortener />
-      </div>
-    </main>
+      </main>
+    </div>
   )
 }
-
-export default App
